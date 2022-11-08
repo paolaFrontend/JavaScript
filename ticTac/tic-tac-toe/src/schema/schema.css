@@ -1,0 +1,67 @@
+.q1, .q2, .q3, .q4, .q5, .q6, .q7, .q8, .q9{
+    display: block;
+    height: 150px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.linea{
+    display: block;
+    border: solid  3px aliceblue;
+    height: 150px;
+    background: aliceblue;
+    border-radius: 10px 10px 10px;
+    box-shadow: 7px 0px 8px;
+}
+
+.lineaOrizzontale{
+    display: block;
+    border: solid  3px aliceblue;
+    width: 147px;
+    background: aliceblue;
+    border-radius: 10px 10px 10px;
+    box-shadow: 0px 7px 8px;
+}
+
+.q1, .q4, .q7{
+    border-left: none;
+}
+
+
+.q3, .q6, .q9{
+    border-right: none;
+}
+
+.q1, .q2, .q3{
+    border-top: none;
+}
+
+.q7, .q8, .q9{
+    border-bottom: none;
+}
+
+.row{
+    display: flex;
+}
+
+.quadranti{
+    display: block;
+    margin-top: 100px;
+    margin-left: 35%;
+}
+
+.xSign, .oSign{
+    margin-top: 0px;
+    margin-left: 30%;
+    font-size: 100px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.xSign{
+    color: #ff4455;;
+}
+
+.oSign{
+    color: #fff734; 
+}

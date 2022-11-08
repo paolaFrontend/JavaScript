@@ -1,0 +1,27 @@
+.taskList{
+    display: block;
+    background: #282c34;
+    min-height:666px;
+}
+
+.tasks{
+    display: block;
+    margin: auto;
+    background: white;
+    box-shadow: 5px 10px 15px black;
+    border-radius: 30px;
+    min-width: fit-content;
+    max-width: 25%;
+    margin-top: 40px;
+    min-height: 400px;
+    height: auto;
+    padding: 20px;
+}
+
+.add{
+    text-align: center;
+}
+
+.addButton{
+    cursor: pointer;
+}

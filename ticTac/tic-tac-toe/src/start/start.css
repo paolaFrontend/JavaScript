@@ -1,0 +1,82 @@
+.startScreen{
+    background: #00d3ff;
+    height: 100vw;
+}
+.startTitle{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Brush Script MT", cursive;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+
+.leftTitle{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 120px;
+    font-family: "Copperplate", fantasy;
+    color: #ff4455;
+    transform: rotate3d(10, 10, 0, 20deg);
+    text-shadow: 10px 10px 3px black;
+
+}
+
+.startSubTitle{
+    text-align: center;
+    color: aliceblue;
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    margin-top: 85px;
+    margin-bottom: 0px;
+}
+
+.whoPlay{
+    
+    display: flex;
+    align-items: center;
+
+}
+
+.singlePlayer{
+    position: relative;
+    left: 35%;
+    top: -150px
+}
+
+.doublePlayer{
+    position: relative;
+    left: 35%;
+    top:-150px
+}
+
+.who{
+    display: block;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.one, .two{
+    width: 50%;
+}
+
+.circle, .xfigure{
+    font-size: 170px;
+    font-family: cursive;
+    font-weight: 600;
+    margin-left: 30%;
+}
+
+.circle{
+    color: #fff734;  
+}
+
+.xfigure{
+    color: #ff4455;
+}
+.whoPlay svg{
+    color: aliceblue;
+    filter: drop-shadow(8px 5px 1px rgb(0 0 0 / 0.4));
+}

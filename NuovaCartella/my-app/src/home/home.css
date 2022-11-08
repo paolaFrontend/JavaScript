@@ -1,0 +1,38 @@
+.home{
+    text-align: center;
+    font-weight: 700;
+    text-transform:uppercase ;
+}
+
+.homeContainer{
+    display: flex;
+    
+    position: relative;
+    margin: auto;
+    max-width: 50%;
+ 
+    border: solid grey 1px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+
+    padding: 50px;
+
+}
+.homeContainer a{
+    flex:1;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.testo{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.homeContainer_logo{
+    display: block;
+    margin: auto;
+    width:40%;
+    border-radius: 20px;
+}

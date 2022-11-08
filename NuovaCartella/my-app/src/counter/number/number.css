@@ -1,0 +1,11 @@
+.numberContainer{
+    display: block;
+    margin: auto;
+    flex:1;
+}
+
+.numberContainer p{
+    text-align: center;
+    font-size: 50px;
+}
+

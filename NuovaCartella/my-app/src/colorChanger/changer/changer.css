@@ -1,0 +1,10 @@
+.changer span{
+    display: block;
+    margin: auto;
+    padding: 40px;
+    margin-top: 150px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    border: solid black 2px;
+}

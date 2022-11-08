@@ -1,0 +1,72 @@
+.task{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.singleTask, .singleTaskDel, .changeAct, .check, .descChangeButton, .ActChangeButton, .DelButton {
+    display: block;
+    margin: auto;
+}
+
+.descChangeButton, .ActChangeButton, .DelButton{
+    font-size: 20px !important;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.singleTaskDel del, .singleTask input::placeholder, .singleTask label{
+    font-size: 20px;
+}
+
+.singleTaskDel{
+    color: grey;
+}
+
+.singleTask, .singleTaskDel{
+    width: 100%;
+    text-align: left;
+}
+
+.buttons{
+    display: flex;
+}
+
+.details summary{
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    padding-left: 6%;
+}
+
+.details{
+    display: block;
+}
+
+.det{
+    display: flex;
+    padding-left: 10%;
+    max-width: 80%;
+}
+
+.description input{
+    width: 100%;
+}
+
+.description label{
+    text-align:justify;
+}
+
+.description input::placeholder, .description label{
+    font-size: 15px;
+}
+
+.changeDet{
+    display: block;
+    margin-left: 20px;
+
+}
+
+.descChangeButton{
+    margin-top: 2px; 
+}

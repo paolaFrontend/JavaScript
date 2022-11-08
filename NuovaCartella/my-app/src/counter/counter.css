@@ -1,0 +1,78 @@
+.counter{
+    text-align: center;
+}
+
+
+.counterContainer{
+    display: flex;
+    margin:auto;
+    width: 60%;
+    height: 400px;
+    border: solid grey 1px;
+    border-radius: 10px;
+}
+
+.opContainer{
+    display: block;
+    margin:auto;
+    flex:1;
+    height: 400px;
+    border-right: solid grey 1px;
+}
+
+
+.opContainer button{
+    display: block;
+    margin: auto;
+    border: solid blue 3px;
+    color: blue;
+    background: none;
+    margin-top: 100px;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.opContainer .counterRed{
+    border: solid red 3px;
+    color: red;
+}
+
+.counterHome{
+    display: block;
+    margin:auto;
+    text-align: center;
+    padding-top: 30px;
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px){
+    .counterContainer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .opContainer{
+        display: flex;
+        border-right: none;
+    }
+
+    .opContainer button{
+        display: block;
+        margin: auto;
+        border: solid blue 3px;
+        color: blue;
+        background: none;
+        padding: 10px 15px 10px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .opContainer .counterRed{
+        border: solid red 3px;
+        color: red;
+    }
+
+
+}

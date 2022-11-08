@@ -1,0 +1,11 @@
+.dataFoto{
+    display: block;
+    margin: auto;
+    width:40%;
+    border-radius: 20px;
+}
+
+.data{
+    display: block;
+    text-align: center;
+}

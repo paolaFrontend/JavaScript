@@ -1,0 +1,23 @@
+.form{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    border: solid grey 2px;
+    width: 40%;
+    padding: 20px;
+}
+
+.form input, .form select, .form label{
+    display: block;
+    margin: auto;
+    width: 50% ;
+
+}
+
+.form label{
+    margin-top: 20px;
+}
+
+
+
+
